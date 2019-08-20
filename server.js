@@ -4,7 +4,6 @@ const passport = require("passport");
 
 const app = express();
 const mongoose = require("mongoose");
-
 const users = require("./routes/api/users");
 const profile = require("./routes/api/profile");
 const posts = require("./routes/api/posts");
